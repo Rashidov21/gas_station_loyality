@@ -9,3 +9,4 @@ class UserAdmin(admin.ModelAdmin):
     search_fields = ['telegram_id', 'phone', 'car_number']
     readonly_fields = ['created_at', 'updated_at']
 
+

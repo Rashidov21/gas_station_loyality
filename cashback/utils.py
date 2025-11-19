@@ -40,3 +40,4 @@ def calculate_cashback(check_amount):
     
     return cashback_amount.quantize(Decimal('0.01'))
 
+

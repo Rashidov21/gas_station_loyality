@@ -19,3 +19,5 @@ class VisitAdmin(admin.ModelAdmin):
     readonly_fields = ['created_at']
     date_hierarchy = 'created_at'
 
+
+

@@ -80,3 +80,4 @@ class Settings(models.Model):
     def __str__(self):
         return f"{self.key}: {self.value}"
 
+

@@ -304,3 +304,5 @@ def process_fiscal_check(image_file, telegram_id):
         'cashback': cashback_amount,
     }
 
+
+

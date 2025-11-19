@@ -226,3 +226,5 @@ def telegram_webhook(request):
     send_telegram_message(chat_id, "Пожалуйста, отправьте фото QR-кода с чека.")
     return JsonResponse({'ok': True})
 
+
+

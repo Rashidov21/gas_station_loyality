@@ -51,3 +51,5 @@ class Visit(models.Model):
     def __str__(self):
         return f"Visit by User {self.user.telegram_id} - {self.check.amount}"
 
+
+

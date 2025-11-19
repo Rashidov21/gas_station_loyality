@@ -16,3 +16,4 @@ class SettingsAdmin(admin.ModelAdmin):
     search_fields = ['key']
     readonly_fields = ['created_at', 'updated_at']
 
+

@@ -24,3 +24,4 @@ class User(models.Model):
     def __str__(self):
         return f"User {self.telegram_id} ({self.phone or 'No phone'})"
 
+
